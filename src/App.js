@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Typography } from '@mui/material';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Typography variant="h1">Learn React Roboto</Typography>
       </header>
     </div>
   );
